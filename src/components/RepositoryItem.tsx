@@ -1,9 +1,11 @@
+export interface Repository {
+    name: string;
+    description: string;
+    html_url: string;
+}
+
 interface RepositoryItemProps {
-    repository: {
-        name: string;
-        description: string;
-        html_url: string;
-    };
+    repository: Repository;
     className: string;
 }
 
