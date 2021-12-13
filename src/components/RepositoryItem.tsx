@@ -21,7 +21,7 @@ export default function RepositoryItem({
             <p className="mt-2 text-gray-600">{repository.description}</p>
             <a
                 href={repository.html_url}
-                className="inline-block px-2 py-1 mt-2 font-bold text-gray-200 uppercase rounded-full bg-sky-500"
+                className="inline-block px-2 mt-2 font-bold text-white uppercase rounded-full bg-sky-500"
             >
                 Ver
             </a>
